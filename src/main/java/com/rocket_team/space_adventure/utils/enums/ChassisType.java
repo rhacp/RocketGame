@@ -1,6 +1,8 @@
 package com.rocket_team.space_adventure.utils.enums;
 
-public class ChassisType {
+public enum ChassisType {
 
-    private String laMisto;
+    LIGHT,
+    MEDIUM,
+    HEAVY
 }
