@@ -16,7 +16,6 @@ public class PartDTO {
     @Size(min = 3, max = 200, message = "must be between 3 and 200 characters")
     private String description;
 
-    @NotNull
     @EnumPartTypePattern(anyOf = {"type cone", "type one"})
     private String partType;
 

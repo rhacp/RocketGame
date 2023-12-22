@@ -19,7 +19,7 @@ public @interface EnumPartTypePattern {
 
     String[] anyOf();
 
-    String message() default "Must be: Type Cone or Type One";
+    String message() default "Must not be null and one of the following: Type Cone or Type One";
 
     Class<?>[] groups() default {};
 
