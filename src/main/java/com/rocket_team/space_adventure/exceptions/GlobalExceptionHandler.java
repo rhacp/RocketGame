@@ -1,5 +1,7 @@
 package com.rocket_team.space_adventure.exceptions;
 
+import com.rocket_team.space_adventure.exceptions.part.IllegalPartTypeException;
+import com.rocket_team.space_adventure.exceptions.part.PartAlreadyExistsException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -20,6 +22,16 @@ public class GlobalExceptionHandler {
                 .forEach(error -> result.put(error.getField(), error.getDefaultMessage()));
 
         return new ResponseEntity<>(result, HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(PartAlreadyExistsException.class)
+    public ResponseEntity<Object> handlePartAlreadyExists(PartAlreadyExistsException e) {
+        return getResponse(e, HttpStatus.CONFLICT);
+    }
+
+    @ExceptionHandler(IllegalPartTypeException.class)
+    public ResponseEntity<Object> handleIllegalPartType(IllegalPartTypeException e) {
+        return getResponse(e, HttpStatus.BAD_REQUEST);
     }
 
     private ResponseEntity<Object> getResponse(RuntimeException e, HttpStatus httpStatus) {

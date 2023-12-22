@@ -5,7 +5,7 @@ import lombok.Getter;
 @Getter
 public enum PartType {
 
-    TYPE_ONE("Type One"),
+    TYPE_CONE("Type Cone"),
     TYPE_TWO("Type Two"),
     TYPE_THREE("Type Three");
 
