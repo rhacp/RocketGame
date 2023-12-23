@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 public interface PartRepository extends JpaRepository<Part, Long> {
 
     Part findByName(String name);
+
     Part findBySpeedAndShieldAndFuel(Integer speed, Integer shield, Integer fuel);
 }
