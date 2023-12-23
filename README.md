@@ -9,7 +9,7 @@ Board regarding the rocket game.
 [Rocket Game API Doccumentation](https://rhacp.github.io/Rocket-Game-Swagger/)
 
 * Trello:
-[TrelloRocketGame](https://trello.com/b/pfw3trlb/rocket-game)
+[Trello Rocket Game](https://trello.com/b/pfw3trlb/rocket-game)
 
 ---
 
