@@ -39,3 +39,11 @@ Your journey will be filled with multiple stages.
 Depending on the stage, the player will have to choose between different alternatives according to his rocket stats. Each outcome will be affected by the dice roll, which will happen at each stage.
 
 If the player is able to finish the stage and get back home, he won the game!
+
+---
+
+# Team Members
+
+- [Gabriella Nuca](https://github.com/GabriellaNuca2209)     
+- [Andrei Mircea Anghel](https://github.com/rhacp)
+- [Cristian-Daniel Ionescu](https://github.com/Daniel7Ionescu)
