@@ -1,6 +1,5 @@
 package com.rocket_team.space_adventure.utils.enum_converters;
 
-import com.rocket_team.space_adventure.exceptions.part.IllegalPartTypeException;
 import com.rocket_team.space_adventure.utils.enums.PartType;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
