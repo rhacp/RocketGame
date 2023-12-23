@@ -1,6 +1,6 @@
 # Rocket Team - Rocket Game
 
-Board regarding the rocket game.
+Repository regarding the rocket game.
 
 * Project diagram:
 [Rocket Game Diagram](https://lucid.app/lucidchart/dced70d6-eda9-4007-9a7e-115767475a14/edit?viewport_loc=-871%2C314%2C4248%2C1965%2C0_0&invitationId=inv_aaec92b2-d07c-4d97-ab15-c6685ff166af)
