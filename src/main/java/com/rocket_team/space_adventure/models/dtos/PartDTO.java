@@ -1,12 +1,13 @@
 package com.rocket_team.space_adventure.models.dtos;
 
-import com.rocket_team.space_adventure.utils.enums.PartType;
 import com.rocket_team.space_adventure.validations.EnumPartTypePattern;
 import jakarta.validation.constraints.*;
 import lombok.Data;
 
 @Data
 public class PartDTO {
+
+    private Long id;
 
     @NotBlank
     @Size(min = 3, max = 30, message = "must be between 3 and 30 characters")
