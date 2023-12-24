@@ -1,6 +1,5 @@
 package com.rocket_team.space_adventure.validations;
 
-import com.rocket_team.space_adventure.utils.enums.PartType;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

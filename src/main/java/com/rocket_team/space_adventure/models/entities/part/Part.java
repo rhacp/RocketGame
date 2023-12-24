@@ -1,6 +1,5 @@
 package com.rocket_team.space_adventure.models.entities.part;
 
-import com.rocket_team.space_adventure.models.entities.Rocket;
 import com.rocket_team.space_adventure.utils.enums.PartType;
 import jakarta.persistence.*;
 import lombok.Data;
